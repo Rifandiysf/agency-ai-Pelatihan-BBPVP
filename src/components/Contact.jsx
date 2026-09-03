@@ -23,8 +23,11 @@ const Contact = () => {
                 </div>
                 <div className="sm:col-span-2">
                     <p className="mb-2 text-sm font-medium">Message</p>
-                    <textarea name="message" rows={8} placeholder="Enter your message" className="w-full p-3"></textarea>
+                    <textarea name="message" rows={8} placeholder="Enter your message" className="w-full p-3 text-sm outline-none rounded-lg border border-gray-300 dark:border-gray-600" required></textarea>
                 </div>
+                <button type="submit" className="w-max flex gap-2 bg-primary text-white text-sm px-10 py-3 rounded-full cursor-pointer hover:sca1e-103 transition-all">
+                    Submit <img src={assets.arrow_icon} alt="" className="w-4" />
+                </button>
             </form>
         </div>
     )
