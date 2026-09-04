@@ -6,6 +6,7 @@ import Services from "./components/Services"
 import OurWork from "./components/OurWork"
 import Teams from "./components/Teams"
 import Contact from "./components/Contact"
+import Footer from "./components/Footer"
 
 
 const App = () => {
@@ -19,6 +20,7 @@ const App = () => {
       <OurWork />
       <Teams />
       <Contact />
+      <Footer theme={theme}/>
     </div>
   )
 }

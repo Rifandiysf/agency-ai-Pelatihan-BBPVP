@@ -6,7 +6,7 @@ const Contact = () => {
         <div id='contact' className='relative flex flex-col items-center gap-7 px-4 sm:px-12 lg:px-24 xl:px-40 pt-30 text-gray-300 dark:text-white'>
             <Title title="Reach Out to Us" desc="From strategy to execution, we craft digital solution that move your business forward." />
 
-            <form className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 w-full max-w-5xl">
+            <form className="grid sm:grid-cols-2 gap-6 sm:gap-5 w-full max-w-5xl">
                 <div>
                     <p className="mb-2 text-sm font-medium">Your Name</p>
                     <div className="flex pl-3 rounded-lg border border-gray-300 dark:border-gray-600">
